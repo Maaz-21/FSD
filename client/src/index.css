@@ -1,0 +1,28 @@
+/*The CSS file for global styles that will be applied throughout the application*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");   /*importing google font Poppins*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */         /*scroll bar css*/
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  width: 6px;
+} 
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+  height: 50px;
+}
